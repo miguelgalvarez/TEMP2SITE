@@ -9,7 +9,8 @@ import requests
 import mysql.connector
 from mysql.connector import Error
 
-db = MySQLdb.connect(host = "162.241.253.24", user = "francoou_pi", passwd = "200308", db = "francoou_temp")
+
+db = MySQLdb.connect(host = "enter mySQL database ip", user = "enter username", passwd = "enter password", db = "enter database name")
 cur = db.cursor()
 
 try:
