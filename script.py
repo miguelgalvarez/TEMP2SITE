@@ -14,10 +14,10 @@ db = MySQLdb.connect(host = "enter mySQL database ip", user = "enter username", 
 cur = db.cursor()
 
 try:
-    connection = mysql.connector.connect(host='162.241.253.24',
-                             database='francoou_temp',
-                             user='francoou_pi',
-                             password='200308')
+    connection = mysql.connector.connect(host='enter database ip',
+                             database='enter database name',
+                             user='enter database username',
+                             password='enter database password')
 
     if connection.is_connected():
        db_Info = connection.get_server_info()
