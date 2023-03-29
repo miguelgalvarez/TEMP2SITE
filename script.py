@@ -64,7 +64,7 @@ def sendDataToServer():
     temperature = read_temp()
     print(temperature)
     temp= read_temp()
-    urllib.request.urlopen("http://francoouesttemp.tech/weather/log.php?temp="+str(read_temp())).read()
+    urllib.request.urlopen("domain"+str(read_temp())).read()
 
 while True:
         print("putting temperature data into temp_pi database")
